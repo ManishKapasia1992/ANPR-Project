@@ -1,5 +1,4 @@
 # Import the needed libraries
-
 import cv2
 import pytesseract
 import imutils
@@ -10,7 +9,7 @@ image = cv2.imread(r'C:\Users\admin\Desktop\C.jpg')
 # image = cv2.resize(img, (750, 640))
 # image = imutils.resize(img, width=800, height=200)
 
-# Concert image to gray image
+# Convert image to gray image
 gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imshow("Gray_image", gray_img)
 cv2.waitKey(0)
